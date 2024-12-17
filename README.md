@@ -310,7 +310,7 @@ pipeline{
         stage('Clone Repo')
         {
             steps{
-                git 'https://github.com/Sonal0409/banking-finance-Project1.git'
+                git 'https://github.com/StarAgileDevOpsTraining/star-agile-health-care.git'
             }
         }
         stage('Test Code')
